@@ -1,0 +1,19 @@
+@import './components/vars.scss';
+@import './components/mixin.scss';
+
+.sr-only{
+    height: px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    left: -100000000rem;
+    width: 0px !important;
+}
+
+.important {
+    color: $error-text;
+    width: 100%;
+}
+
+.success {
+    color: $success-color;
+}
